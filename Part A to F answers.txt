@@ -1,0 +1,270 @@
+Part A: Understanding the CIA Triad
+
+
+1. Confidentiality
+
+Definition:
+Confidentiality means keeping information private and ensuring only authorized people can access it.
+
+Why it is important:
+It protects sensitive data such as passwords, personal information, bank details, and company secrets from being exposed to unauthorized users or hackers.
+
+Real-world example:
+When you log into your email or banking app, your data is protected using passwords and encryption so that only you can access your account.
+
+2. Integrity
+
+Definition:
+Integrity means ensuring that data is accurate, complete, and has not been altered or tampered with.
+
+Why it is important:
+It ensures that information remains trustworthy. If data is changed without permission, it can lead to wrong decisions or security risks.
+
+Real-world example:
+When you transfer money online, the system ensures the amount is not changed during transmission.
+
+3. Availability
+
+Definition:
+Availability means that information and systems are accessible to authorized users whenever they need them.
+
+Why it is important:
+If systems go down or data is unavailable, users cannot complete important tasks, which can affect businesses and services.
+
+Real-world example:
+A hospital system must always be available so doctors can access patient records in emergencies.
+
+| Concept         | Definition                                      | Importance                               | Real-world Example                           |
+| --------------- | ----------------------------------------------- | ---------------------------------------- | -------------------------------------------- |
+| Confidentiality | Protects information from unauthorized access   | Prevents data leaks and privacy breaches | Online banking login protected by password   |
+| Integrity       | Ensures data is accurate and not modified       | Maintains trust and correctness of data  | Secure online money transfer without changes |
+| Availability    | Ensures systems/data are accessible when needed | Allows continuous access to services     | Hospital systems available for emergency use |
+
+
+Part B: Real-World Case Study
+
+1. What happened?
+
+The WannaCry ransomware attack happened in May 2017. It was a global cyberattack where hackers used malicious software (ransomware) to infect computers running Windows operating systems. The malware spread very quickly across networks by exploiting a security weakness in Windows. Once infected, the computers were locked, and users were shown a message demanding payment in Bitcoin to unlock their files.
+
+2. Which part of the CIA Triad was affected?
+
+The main part of the CIA Triad affected was:
+
+Availability → Systems and files became inaccessible because they were locked by ransomware.
+Integrity (secondary impact) → Some systems were also at risk of data corruption or unauthorized changes.
+
+3. What was the impact?
+Many hospitals, businesses, and government systems were shut down or disrupted.
+The UK’s National Health Service (NHS) had to cancel appointments and operations.
+Over 200,000 computers in 150+ countries were affected.
+Companies faced financial losses and downtime.
+Important services were delayed, affecting patients and customers.
+
+4. How could it have been prevented?
+Regular software updates and patching (Microsoft had already released a fix, but many systems were not updated).
+Strong cybersecurity awareness in organizations.
+Using antivirus and endpoint protection tools.
+Regular data backups so systems could be restored without paying ransom.
+Network segmentation to stop the malware from spreading so quickly.
+
+Part C: Risk Assessment Activity
+
+
+
+| Asset                  | Threat                               | Likelihood | Impact | Risk Level |
+| ---------------------- | ------------------------------------ | ---------- | ------ | ---------- |
+| Student Records        | Data breach / hacking                | High       | High   | Critical   |
+| Examination Data       | Question paper leak                  | Medium     | High   | High       |
+| College Website        | Website defacement / DDoS attack     | Medium     | Medium | Medium     |
+| Faculty Information    | Unauthorized access / insider threat | Medium     | High   | High       |
+| Network Infrastructure | Malware / ransomware attack          | High       | High   | Critical   |
+
+
+Part D: Threat Identification
+1. Insider Threat
+
+Description:
+An insider threat happens when someone inside an organization (employee, student, or staff) misuses their access to harm systems or steal data.
+
+Possible Impact:
+
+Data leaks (student records, exams)
+Damage to systems or reputation
+Unauthorized access to sensitive information
+
+Prevention Methods:
+
+Limit user access (least privilege principle)
+Monitor user activity
+Use access logs and audits
+Strong security policies and training
+2. Malware
+
+Description:
+Malware is malicious software designed to damage, disrupt, or gain unauthorized access to systems (e.g., viruses, worms, ransomware).
+
+Possible Impact:
+
+Data loss or encryption (ransomware)
+System slowdown or crash
+Theft of personal or financial data
+
+Prevention Methods:
+
+Install antivirus/anti-malware software
+Avoid unknown downloads and links
+Keep systems updated
+Use firewalls
+3. Phishing
+
+Description:
+Phishing is a cyber attack where attackers trick users into giving sensitive information like passwords or bank details through fake emails or websites.
+
+Possible Impact:
+
+Account hacking
+Financial fraud
+Identity theft
+
+Prevention Methods:
+
+Do not click suspicious links
+Verify sender emails carefully
+Use multi-factor authentication (MFA)
+Security awareness training
+4. Weak Passwords
+
+Description:
+Weak passwords are easy-to-guess passwords like “123456” or “password,” which attackers can easily crack.
+
+Possible Impact:
+
+Unauthorized account access
+Data theft or misuse
+Account takeover
+
+Prevention Methods:
+
+Use strong passwords (mix of letters, numbers, symbols)
+Avoid reusing passwords
+Use password managers
+Enable MFA
+5. Unpatched Systems
+
+Description:
+Unpatched systems are software or operating systems that have not been updated with the latest security fixes.
+
+Possible Impact:
+
+Hackers exploit known vulnerabilities
+Malware infections
+System compromise or shutdown
+
+Prevention Methods:
+
+Regular software updates
+Enable automatic updates
+Patch management system in organizations
+Regular security audits
+
+Part E: Security Recommendations
+
+
+1. Enable Multi-Factor Authentication (MFA)
+
+Why it is important:
+MFA adds an extra layer of security beyond passwords. Even if a password is stolen, attackers cannot access the account without a second verification step (like OTP).
+
+2. Regular System Updates
+
+Why it is important:
+Updates fix security vulnerabilities. Without updates, hackers can exploit known weaknesses in systems and software.
+
+3. Strong Password Policy
+
+Why it is important:
+Strong passwords reduce the risk of brute-force attacks and unauthorized access. It ensures users do not use weak or guessable passwords.
+
+4. Employee and Student Security Awareness Training
+
+Why it is important:
+Humans are often the weakest link. Training helps users recognize phishing emails, scams, and unsafe behavior.
+
+5. Regular Data Backups
+
+Why it is important:
+Backups ensure that important data (student records, exams) can be restored in case of ransomware attacks or system failure.
+
+6. Use Antivirus and Anti-Malware Software
+
+Why it is important:
+These tools detect and remove harmful software before it can damage systems or steal data.
+
+7. Access Control (Least Privilege Principle)
+
+Why it is important:
+Users should only access data they need. This reduces the risk of insider threats and accidental data leaks.
+
+8. Network Firewalls and Intrusion Detection Systems (IDS)
+
+Why it is important:
+Firewalls block unauthorized access, while IDS monitors suspicious activity and alerts administrators.
+
+9. Secure Wi-Fi Network (Encrypted Connection)
+
+Why it is important:
+Unsecured Wi-Fi can be easily hacked. Encryption (WPA3/WPA2) protects data from being intercepted.
+
+10. Regular Security Audits and Monitoring
+
+Why it is important:
+Audits help identify weaknesses in systems before attackers can exploit them. Continuous monitoring detects unusual activity early.
+
+
+
+Part F: Mini Security Consultant Activity
+
+🔍 1. Security Problems Identified
+
+After analysis, the following problems are observed:
+
+Students and staff are receiving phishing emails
+Some systems are running slow (possible malware infection)
+Weak passwords are used in many accounts
+Some systems are not regularly updated
+No clear monitoring of network activity
+
+🧠 2. Investigation Plan (What I would do)
+As a security consultant, I would:
+Check system logs for unusual login attempts
+Scan systems using antivirus and malware detection tools
+Identify heavy or suspicious processes causing slow performance
+Review email filters and check phishing attempts
+Verify whether systems are updated and patched
+
+🛡️ 3. Recommended Solutions
+🔐 Strengthen Authentication
+Enable Multi-Factor Authentication (MFA)
+Enforce strong password rules
+🧹 Remove Malware Risks
+Install and update antivirus software
+Run full system scans regularly
+📧 Prevent Phishing Attacks
+Train students and staff to identify fake emails
+Block suspicious email domains
+🔄 Keep Systems Updated
+Enable automatic updates for all systems
+Apply security patches immediately
+📊 Improve Monitoring
+Use firewall and intrusion detection systems (IDS)
+Monitor network traffic for unusual activity
+
+⚠️ 4. Expected Outcome After Fixes
+If these steps are implemented:
+Systems will run faster and more securely
+Reduced risk of hacking and data leaks
+Improved protection against phishing and malware
+Better safety of student and faculty data
+Overall stronger cybersecurity posture for the college
+
